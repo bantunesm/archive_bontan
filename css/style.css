@@ -1,0 +1,113 @@
+body {
+    font-family: times;
+    font-size: 18px;
+}
+
+.logo {
+    text-align: center;
+    margin: 120px auto 80px;
+    width: 200px;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.intro .col {
+    text-align: justify;
+    font-family: "SharisThin";
+}
+
+.button--wrap {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.button {
+    text-align: center;
+    padding: 15px 30px;
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+section {
+    margin: 70px 0;
+}
+
+.revolution {
+    background: url("../img/La_Revolution_francaise_bis2.jpg");
+    background-size: cover;
+    min-height: 810px;
+}
+
+.overlay {
+/*    background: rgba(255,255,255, 0.5);*/
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Milton;
+    color: #FFF;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .3);
+}
+
+section.montres {
+    padding: 50px 0;
+}
+
+.montres h3 {
+    font-size: 22px;
+}
+
+.montres h3 span {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    font-family: arial;
+    margin-top: 3px;
+}
+
+.montres .price {
+    color: #8c8c8c;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.montres .col {
+    text-align: center;
+}
+
+.montres .col img {
+    max-width: 100%;
+}
+
+.montres a {
+    /* background: #000; */
+    color: #000;
+    font-size: 16px;
+    padding: 7px 20px;
+    /* border-radius: 20px; */
+    font-family: arial;
+    border: 1px solid;
+}
+
+footer {
+    padding: 50px 0;
+}
+
+footer img {
+    width: 180px;
+}
+
+footer .minibio div {
+    padding-left: 20px;
+    padding-top: 10px;
+}
